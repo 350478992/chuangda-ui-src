@@ -1,4 +1,5 @@
 export default {
+  base: process.env.NODE_ENV === 'production' ? '/shadowWindDoc/' : '/',
   themeConfig: {
     siteTitle: '创达UI',
     nav: [

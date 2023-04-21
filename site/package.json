@@ -16,6 +16,6 @@
     "vue": "^3.2.36"
   },
   "dependencies": {
-    "shadow-wind": "^1.0.2"
+    "@shadow-wind/components": "workspace:^1.0.3"
   }
 }

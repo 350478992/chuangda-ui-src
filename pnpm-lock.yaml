@@ -74,11 +74,11 @@ importers:
 
   site:
     specifiers:
-      shadow-wind: ^1.0.2
+      '@shadow-wind/components': workspace:^1.0.3
       vitepress: 1.0.0-alpha.73
       vue: ^3.2.36
     dependencies:
-      shadow-wind: registry.npmmirror.com/shadow-wind/1.0.2
+      '@shadow-wind/components': link:../packages/shadow-wind
     devDependencies:
       vitepress: registry.npmmirror.com/vitepress/1.0.0-alpha.73
       vue: registry.npmmirror.com/vue/3.2.36
@@ -6775,12 +6775,6 @@ packages:
     name: setprototypeof
     version: 1.2.0
     dev: true
-
-  registry.npmmirror.com/shadow-wind/1.0.2:
-    resolution: {integrity: sha512-vSkDJgnzuiMzrSIR6g7ZKw6ot/x3AprtuUieDXI3wDx95jgQ2v9imiYVRGV4IS6RE4xaZcNVWlp667auaMJckA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/shadow-wind/-/shadow-wind-1.0.2.tgz}
-    name: shadow-wind
-    version: 1.0.2
-    dev: false
 
   registry.npmmirror.com/shebang-command/2.0.0:
     resolution: {integrity: sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/shebang-command/-/shebang-command-2.0.0.tgz}
