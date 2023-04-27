@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
-import App from './app.vue'
-import shadow-wind from '@shadow-wind/components'
+import App from './App.vue'
+import chuangda from '@chuangda/components'
 const app = createApp(App)
-app.use(shadow-wind)
+app.use(chuangda)
 app.mount('#app')

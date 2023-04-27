@@ -43,6 +43,6 @@ export default {
         },
       ],
     },
-    socialLinks: [{ icon: 'github', link: 'https://github.com/350478992/shadow-wind.git' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/350478992/chuangda.git' }],
   },
 }

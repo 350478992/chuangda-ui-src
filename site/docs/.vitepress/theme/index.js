@@ -1,5 +1,5 @@
 import DefaultTheme from 'vitepress/theme'
-import shadowWind from '@shadow-wind/components'
+import shadowWind from '@chuangda/components'
 export default {
   ...DefaultTheme,
   enhanceApp: async ({ app }) => {
