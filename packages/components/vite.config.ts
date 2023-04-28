@@ -12,12 +12,12 @@ export default defineConfig({
   },
   build: {
     //打包文件目录
-    outDir: 'es',
+    // outDir: 'es',
     //压缩
     //minify: false,
     rollupOptions: {
       //忽略打包vue和.less文件
-      external: ['vue', /\.less/],
+      external: ['vue', /\.less/, '@chuangda/utils'],
       input: ['index.ts'],
       output: [
         {
@@ -45,7 +45,8 @@ export default defineConfig({
       ]
     },
     lib: {
-      entry: './index.ts'
+      entry: 'index.ts',
+      name: 'chuangda'
     }
   },
   plugins: [

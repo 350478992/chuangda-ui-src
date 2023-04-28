@@ -1,7 +1,7 @@
 import t from "./button.vue.mjs";
-import o from "../../../utils/withinstall/index.mjs";
+import { withInstall as o } from "@chuangda/utils";
 const a = o(t);
 export {
-  a as Button,
+  a as CdButton,
   a as default
 };

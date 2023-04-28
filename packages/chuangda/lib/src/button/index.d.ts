@@ -1,4 +1,4 @@
-export declare const Button: import("@chuangda/utils/withinstall").SFCWithInstall<import("vue").DefineComponent<{
+export declare const CdButton: import("@chuangda/utils/dist/lib/withinstall").SFCWithInstall<import("vue").DefineComponent<{
     type: {
         type: StringConstructor;
         required: false;
@@ -16,4 +16,4 @@ export declare const Button: import("@chuangda/utils/withinstall").SFCWithInstal
         required: false;
     };
 }>>, {}>>;
-export default Button;
+export default CdButton;

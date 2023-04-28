@@ -14,6 +14,6 @@
     "vite": "^4.2.2"
   },
   "dependencies": {
-    "@chuangda/components": "workspace:^1.0.0"
+    "@chuangda/components": "workspace:^1.0.3"
   }
 }

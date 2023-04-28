@@ -1,7 +1,7 @@
 import o from "./icon.vue.mjs";
-import t from "../../../utils/withinstall/index.mjs";
+import { withInstall as t } from "@chuangda/utils";
 const a = t(o);
 export {
-  a as Icon,
+  a as CdIcon,
   a as default
 };

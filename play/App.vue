@@ -1,7 +1,7 @@
 <template>
   <div>
     <cd-button type="primary">主要按钮</cd-button>
-    <Button type="primary">主要按钮</Button>
+    <CdButton type="primary">主要按钮</CdButton>
     <cd-button type="primary">按钮</cd-button>
     <br />
     <cd-icon>icon</cd-icon>
@@ -9,5 +9,5 @@
 </template>
 
 <script setup lang="ts">
-import { Button } from '@chuangda/components';
+import { CdButton } from '@chuangda/components';
 </script>
