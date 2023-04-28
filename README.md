@@ -53,13 +53,17 @@ button/index.ts
 
 1. 使用 gulp 将 less、vue 组件分开打包，因为 vite 的打包会将所有样式打包到同一个 style 中，不能按需加载
 2. 打包脚本在 packages/components/script 下,script 下的文件目录说明
-   script/utils:
-   paths.ts: 存放打包所需要的路径的配置信息，若工程文件有迁移，需要进行修改
-   delpath.ts: 删除文件夹,打包前需要将之前的打包文件删除，但是需要过滤掉打包目录下的 package.json 和 README.md 文件，因为后续发布到 npmjs.org 还需要这些文件的配置
-   run.ts: 打包函数，因为需要再根目录直接就可以进行打包，而不需要切换到 packages/components 目录下，再去执行打包命令,所以要单独写一个打包的函数，指定要打包的组件路径
-   script/build
-   index.ts: 提供给 gulp 的脚本，就是调用 utils 下的一些方法  
-   script/publish: 自动化发布到 github 的方法
+
+```
+  script/utils:
+    paths.ts: 存放打包所需要的路径的配置信息，若工程文件有迁移，需要进行修改
+    delpath.ts: 删除文件夹,打包前需要将之前的打包文件删除，但是需要过滤掉打包目录下的 package.json 和 README.md 文件，因为后续发布到 npmjs.org 还需要这些文件的配置
+    run.ts: 打包函数，因为需要再根目录直接就可以进行打包，而不需要切换到 packages/components 目录下，再去执行打包命令,所以要单独写一个打包的函数，指定要打包的组件路径
+  script/build
+    index.ts: 提供给 gulp 的脚本，就是调用 utils 下的一些方法
+  script/publish: 自动化发布到 github 的方法
+```
+
 3. 打包指令配置在根目录下的 package.json
 
 ```
