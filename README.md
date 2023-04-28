@@ -248,3 +248,7 @@ packages:
 9. 部署静态站点,将文档部署到 github 的站点中
 
 ## 自动发布到 npmjs 和 github 中，使用 release-it
+
+### 参考文章
+
+Vite+TypeScript 从零搭建 Vue3 组件库：https://juejin.cn/column/7118932817119019015
