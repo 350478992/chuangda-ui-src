@@ -222,7 +222,8 @@ packages:
 7. 引入组件依赖
    `pnpm add @chuangda/components`
 8. 添加说明文档，在 docs 中新建 components/button/index.md,其他组件的说明文档以此类推，然后路径配置到 config.js 中
-   `
+
+   ````
 
    ## Button 按钮
 
@@ -238,7 +239,7 @@ packages:
    ```
 
    :::
-   `
+   ````
 
 9. 部署静态站点,将文档部署到 github 的站点中
 
