@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "install:chuangda": "pnpm i && pnpm run build:chuangda",
     "build:chuangda": "gulp -f packages/components/script/build/index.ts & pnpm run --filter ./packages/utils build",
     "publish:chuangda": "gulp -f packages/components/script/publish/index.ts",
     "dev:chuangda": "pnpm run --filter ./play dev",
