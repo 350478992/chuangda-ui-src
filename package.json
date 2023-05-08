@@ -6,10 +6,10 @@
   "scripts": {
     "build:chuangda": "gulp -f packages/components/script/build/index.ts & pnpm run --filter ./packages/utils build",
     "publish:chuangda": "gulp -f packages/components/script/publish/index.ts",
+    "dev:chuangda": "pnpm run --filter ./play dev",
     "docs:dev": "pnpm run --filter site docs:dev",
     "docs:build": "pnpm run --filter site docs:build",
     "docs:deploy": "pnpm run --filter site docs:deploy",
-    "chuangda:dev": "pnpm run --filter ./play dev",
     "lint:script": "eslint --ext .js,.jsx,.vue,.ts,.tsx --fix --quiet ./",
     "lint:style": "stylelint --fix \"*.{css,less}\""
   },
